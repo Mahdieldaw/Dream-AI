@@ -1,8 +1,9 @@
 // Remove line:
 import React from "react";
+import WorkflowExplorerPreview from "./components/WorkflowExplorerPreview";
 
 const App = () => {
-  return <div>Welcome to the UI Previewer</div>;
+  return <WorkflowExplorerPreview />;
 };
 
 export default App;
